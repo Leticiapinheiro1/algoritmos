@@ -11,12 +11,13 @@ print(input("Digite (a)-lata de 3.6 litro (b)-lata de 1 litros e (C)lata de 18 l
 # Calculando as areas da paredes - desconsiderando a porta
 area_paredes= (2*altura_pé_direito*(largura+comprimento))- area_porta
 
-# Calculando quantidae de tinta
+# Calculando quantidade de tinta
 qtd_tinta=area_paredes/3
 
 #Calculando a quantidade de latas (litros)
-latas=b,c
+latas=a,c
 if latas:
-    qtd_latas=qtd_tinta/b
+    qtd_latas=qtd_tinta/a
     qtd_latas=qtd_tinta/c
+    
 print(f"Quantidade de latas de tintas necessárias:{qtd_latas:.2f} ")

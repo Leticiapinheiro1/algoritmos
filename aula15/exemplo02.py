@@ -1,0 +1,5 @@
+texto=input("Digite um texto:")
+arquivo = open ("text.txt","w",encoding = "utf-8")
+arquivo.write(texto)
+arquivo.close()
+print("Gravando...")
